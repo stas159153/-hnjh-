@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Montserrat;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(108, 108, 175);
+}
+.menu{
+background-color: white;
+padding: 10px 15px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 50px;
+}
+.link-menu{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.logo-image{
+    width: 70px;
+}
+.menu-top{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    gap: 20px;
+}
+  
+.wrapper{
+    height: 90vh;
+    width: 100%;
+    background-image: url(ada.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.title-text{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+.bottom-title-text{
+    color: white;
+    text-align: center;
+}
+.title-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.link-conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.link-wrapper{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 15px 35px;
+    border-radius: 20px;
+}
+.link-wrapper:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media (max-width:694px) {
+    .link-menu{
+        font-size: 20px;
+    }
+    .bottom-title-text{
+        font-size: 11px;
+    }
+    .menu-top{
+        gap: 10px;
+        width: 400px;
+    }
+    .title-text{
+        font-size: 45px;
+    }
+    .link-wrapper{
+        background-color: blue;
+    }
+}
+@media (max-width: 446px){
+    .link-menu{
+        font-size: 15px;
+    }
+    .logo-image{
+        width: 50px;
+    }
+    .title-text{
+        font-size: 35px;
+    }
+}
+@media(max-width:360px){
+    .menu{
+        flex-wrap: wrap;
+    }
+    .link-menu{
+        font-size: 20px;
+    }
+    .logo-image{
+        width: 80px;
+    }
+    .link-wrapper{
+        color: black;
+        background-color: yellow;
+        padding: 8px 20px;
+    }
+}
+@media(max-width:330px){
+    .link-menu{
+        font-size: 15px;
+    }
+    .logo-image{
+        width: 50px;
+    }
+    .title-text{
+        font-size: 30px;
+    }
+    .bottom-title-text{
+        margin: 15px;
+    }
+}
+
+
